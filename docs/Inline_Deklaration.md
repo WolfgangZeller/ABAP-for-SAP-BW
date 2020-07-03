@@ -1,9 +1,7 @@
 # ABAP - Inline Deklaration DATA() und @DATA()
 ---
 
-[Zurück zur Startseite](/index.md)
-
-[Zurück zur Startseite2](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)
+[Zurück zur Startseite](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)
 
 ## Vorteile
 - Verfügbar ab ABAP 7.40 (2012)

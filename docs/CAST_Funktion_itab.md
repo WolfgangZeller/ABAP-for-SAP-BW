@@ -1,7 +1,7 @@
 # Inline Deklaration - Füge Spalte mit CAST-Funktion zu itab hinzu
 ---
 
-[Zurück zur Startseite](index.md)
+[Zurück zur Startseite](/index.md)
 
 ```abap
 "-- GET 'Anzahl Sitze' und 'Preis' aus sflight in itab. Zusätzlich füge ein benutzerdefiniertes Feld 'sum_profit' zur itab hinzu

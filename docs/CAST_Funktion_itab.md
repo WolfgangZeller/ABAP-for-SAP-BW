@@ -15,7 +15,7 @@ SELECT seatsmax price 𝗖𝗔𝗦𝗧( ' ' AS CHAR ) AS sum_profit
   ENDLOOP.
   ```
 
-```SQL
+```sql
 "-- GET 'Anzahl Sitze' und 'Preis' aus sflight in itab. Zusätzlich füge ein benutzerdefiniertes Feld 'sum_profit' zur itab hinzu
 SELECT seatsmax price CAST( ' ' AS CHAR ) AS sum_profit
   FROM sflight

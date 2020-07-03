@@ -19,3 +19,5 @@ SELECT kundennr FROM sflight
   WHERE kundennr = 'A1000'
   INTO TABLE @DATA(itab).
 ```
+
+Inline-Code `Beispiel`.

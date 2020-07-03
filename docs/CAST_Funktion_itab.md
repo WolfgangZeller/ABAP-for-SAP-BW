@@ -16,7 +16,7 @@ SELECT seatsmax price CAST ( ' ' AS CHAR ) AS sum_profit
   ENDLOOP.
   ```
 
-```ABAP
+```abap
 DATA object TYPE REF TO /clean/some_number_range.
 object = NEW #( '/CLEAN/CXTGEN' )
 ...

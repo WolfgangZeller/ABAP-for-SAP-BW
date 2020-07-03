@@ -2,6 +2,7 @@
 ---
 
 [Zurück zur Startseite](/index.md)
+[Zurück zur Startseite2](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)
 
 ```abap
 "-- GET 'Anzahl Sitze' und 'Preis' aus sflight in itab. Zusätzlich füge ein benutzerdefiniertes Feld 'sum_profit' zur itab hinzu

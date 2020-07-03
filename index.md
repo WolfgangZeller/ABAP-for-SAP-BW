@@ -1,6 +1,6 @@
 ## Startseite SAP-Code
 
-ABAP Inline Deklaration: [Link](https://github.com/WolfgangZeller/SAP-Code/edit/master/Inline Deklaration.md)
+ABAP Inline Deklaration: [Link](https://github.com/WolfgangZeller/SAP-Code/Inline Deklaration.md)
 
 You can use the [editor on GitHub](https://github.com/WolfgangZeller/SAP-Code/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 

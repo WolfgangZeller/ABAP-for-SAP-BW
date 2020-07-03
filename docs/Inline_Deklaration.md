@@ -10,24 +10,24 @@
 Hier ein Vergleich zwischen Inline und Up-Front Deklaration
 ```abap
 "-- alte Deklaration (vor ABAP 7.40)
-TYPES: BEGIN OF ts_table,
+TYPES: BEGIN OF ts_tab,
   ebeln TYPE ekpo-ebeln,
   ebelp TYPE ekpo-ebelp,
   statu TYPE ekpo-statu,
   netpr TYPE ekpo-netpr,
- END OF ts_table.
+ END OF ts_tab.
 
-DATA: itab TYPE STANDARD TABLE OF ts_table,
-      wa_itab TYPE ts_table.
+DATA: itab TYPE STANDARD TABLE OF ts_tab,
+      wa_itab TYPE ts_tab.
 
 SELECT ebeln ebelp statu netpr
-  FROM db-table
+  FROM db-tab
   INTO CORRESPONDING FIELDS OF TABLE itab.
 ```  
 ```abap
 "-- neue (Inline-)Deklaration
 SELECT ebeln, ebelp, statu, netpr
-  FROM db-table
+  FROM db-tab
   INTO TABLE @DATA(itab).
 ```
 
@@ -40,12 +40,12 @@ DATA(lv_var) = lv_var2.
 ```abap
 "-- INTO TABLE
 SELECT ebeln, ebelp, statu, netpr
-	FROM db-table
+	FROM db-tab
 	INTO TABLE @DATA(itab).
 	
 "-- INTO FIELDS
 SELECT SINGLE ebeln, ebelp, statu, netpr
-  FROM db-table
+  FROM db-tab
   INTO (@DATA(lv_var1),
 		@DATA(lv_var2))
   WHERE ebeln = @ls_struc-ebeln.

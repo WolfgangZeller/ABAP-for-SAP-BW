@@ -9,7 +9,7 @@
 
 Hier ein Vergleich zwischen Inline und Up-Front Deklaration
 ```abap
-"-- alte Deklaration (vor ABAP 7.40)
+"-- Up-Front Deklaration (vor ABAP 7.40)
 TYPES: BEGIN OF ts_tab,
   ebeln TYPE ekpo-ebeln,
   ebelp TYPE ekpo-ebelp,
@@ -25,7 +25,7 @@ SELECT ebeln ebelp statu netpr
   INTO CORRESPONDING FIELDS OF TABLE itab.
 ```  
 ```abap
-"-- neue (Inline-)Deklaration
+"-- Inline Deklaration
 SELECT ebeln, ebelp, statu, netpr
   FROM db_table
   INTO TABLE @DATA(itab).
@@ -64,7 +64,7 @@ ENDLOOP.
 ```
 **FIELD-SYMBOL**
 ```abap
-ASSIGN itab->* TO FIELD-SYMBOL(<fs>).
+ASSIGN itab TO FIELD-SYMBOL(<fs>).
 ```
 **METHODEN-Aufruf**
 ```abap

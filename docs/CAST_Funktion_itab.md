@@ -14,5 +14,3 @@ SELECT seatsmax price 𝗖𝗔𝗦𝗧( ' ' AS CHAR ) AS sum_profit
     <itab>-sum_profit = <itab>-seatsmax * <itab>-price
   ENDLOOP.
   ```
-
-// CAST-Statement mit Markdown-Edior erstelt und mit Copy&Paste eingefügt.

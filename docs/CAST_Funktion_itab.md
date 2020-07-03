@@ -4,7 +4,7 @@
 
 ```abap
 "-- GET 'Anzahl Sitze' und 'Preis' aus sflight in itab. Zusätzlich füge ein benutzerdefiniertes Feld 'sum_profit' zur itab hinzu
-SELECT seatsmax price CAST( ' ' AS CHAR ) AS sum_profit
+SELECT seatsmax price **CAST**( ' ' AS CHAR ) AS sum_profit
   FROM sflight
   INTO TABLE @DATA(itab)
   WHERE carrid = 'LH'.

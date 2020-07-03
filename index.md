@@ -40,3 +40,7 @@ Hier der Versuch, einen ABAP-Codeblock zu schreiben
 ```ABAP
 SELECT * FROM sflight.
 ```
+Und hier ohne ABAP Anweisung
+```
+SELECT * FROM sflight.
+```

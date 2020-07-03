@@ -3,6 +3,8 @@
 
 [Zurück zur Startseite](/index.md)
 
+[Zurück zur Startseite2](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)
+
 ## Vorteile
 - Verfügbar ab ABAP 7.40 (2012)
 - Variablen müssen nicht mehr explizit deklariert werden - der Programmcode wird schlanker und lesbarer

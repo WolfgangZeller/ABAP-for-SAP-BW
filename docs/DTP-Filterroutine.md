@@ -9,6 +9,7 @@ DATA ls_range TYPE rssdlrange.
 
 DATA(lv_var) = sy-datum - 1
 
+CLEAR l_t_range[]
 "-- SET Wert für ein Feld
   ls_range-iobjnm = '/BI0/0CALMONTH'.
   ls_range-fieldname = 'CALMONTH'.

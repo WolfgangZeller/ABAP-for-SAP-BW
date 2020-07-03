@@ -44,3 +44,7 @@ Und hier ohne ABAP Anweisung
 ```
 SELECT * FROM sflight.
 ```
+Und hier mit SQL
+```SQL
+SELECT * FROM sflight.
+```

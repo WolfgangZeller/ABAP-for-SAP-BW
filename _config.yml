@@ -1,5 +1,1 @@
 theme: jekyll-theme-cayman
-
-kramdown:
-  syntax_highlighter_opts:
-    disable : true

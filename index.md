@@ -37,7 +37,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Code Block, aber ohne Markdown
 ```
 Hier der Versuch, einen ABAP-Codeblock zu schreiben
-```ABAP
+```abap
 SELECT * FROM sflight.
 ```
 Und hier ohne ABAP Anweisung
@@ -45,6 +45,6 @@ Und hier ohne ABAP Anweisung
 SELECT * FROM sflight.
 ```
 Und hier mit SQL
-```SQL
+```sql
 SELECT * FROM sflight.
 ```

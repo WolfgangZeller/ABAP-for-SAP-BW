@@ -21,13 +21,13 @@ DATA: itab TYPE STANDARD TABLE OF ts_tab,
       wa_itab TYPE ts_tab.
 
 SELECT ebeln ebelp statu netpr
-  FROM db-tab
+  FROM db_table
   INTO CORRESPONDING FIELDS OF TABLE itab.
 ```  
 ```abap
 "-- neue (Inline-)Deklaration
 SELECT ebeln, ebelp, statu, netpr
-  FROM db-tab
+  FROM db_table
   INTO TABLE @DATA(itab).
 ```
 
@@ -40,14 +40,14 @@ DATA(lv_var) = lv_var2.
 ```abap
 "-- INTO TABLE
 SELECT ebeln, ebelp, statu, netpr
-	FROM db-tab
+	FROM db_table
 	INTO TABLE @DATA(itab).
 	
 "-- INTO FIELDS
 SELECT SINGLE ebeln, ebelp, statu, netpr
-  FROM db-tab
+  FROM db_table
   INTO (@DATA(lv_var1),
-		@DATA(lv_var2))
+	@DATA(lv_var2))
   WHERE ebeln = @ls_struc-ebeln.
 ```
 **LOOP-Anweisung**
@@ -69,5 +69,5 @@ ASSIGN itab->* TO FIELD-SYMBOL(<fs>).
 **METHODEN-Aufruf**
 ```abap
 class=>mehtode( ch_var1 = DATA(lv_var1)
-	ch_var2 = DATA(lv_var2) ).
+		ch_var2 = DATA(lv_var2) ).
 ```

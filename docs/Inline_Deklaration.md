@@ -1,6 +1,9 @@
 # ABAP - Inline Deklaration DATA() und @DATA()
 ---
-### Vorteile
+
+[Zurück zur Startseite](/index.md)
+
+## Vorteile
 - Verfügbar ab ABAP 7.40 (2012)
 - Variablen müssen nicht mehr explizit deklariert werden - der Programmcode wird schlanker und lesbarer
 - die Inline-Deklaration markiert die Stelle, an der die Variable das erste Mal verwendet wird
@@ -31,12 +34,12 @@ SELECT ebeln, ebelp, statu, netpr
   INTO TABLE @DATA(itab).
 ```
 
-**Variablen einen Wert zuweisen**
+### Variablen einen Wert zuweisen
 ```abap
 DATA(lv_var) = 'Test'.
 DATA(lv_var) = lv_var2.
 ```
-**SELECT-Statement**
+### SELECT-Statement
 ```abap
 "-- INTO TABLE
 SELECT ebeln, ebelp, statu, netpr
@@ -50,7 +53,7 @@ SELECT SINGLE ebeln, ebelp, statu, netpr
 	@DATA(lv_var2))
   WHERE ebeln = @ls_struc-ebeln.
 ```
-**LOOP-Anweisung**
+### LOOP-Anweisung
 ```abap
 "-- in Workarea
 LOOP AT itab INTO DATA(wa).
@@ -62,11 +65,11 @@ LOOP AT itab ASSIGNING FIELD-SYMBOL(<fs>).
 ...
 ENDLOOP.
 ```
-**FIELD-SYMBOL**
+### FIELD-SYMBOL
 ```abap
 ASSIGN itab TO FIELD-SYMBOL(<fs>).
 ```
-**METHODEN-Aufruf**
+### METHODEN-Aufruf
 ```abap
 class=>mehtode( ch_var1 = DATA(lv_var1)
 		ch_var2 = DATA(lv_var2) ).

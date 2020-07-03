@@ -1,8 +1,9 @@
 ## Startseite
 ---
 
-| ABAP-Thema       | Link        |
+| Kategorie | | Thema | Link |
 | :----------- | :----------- |
-| Inline Deklaration - Überblick | [Link](docs/Inline_Deklaration.md) |
-| Inline Deklaration - Füge Spalte mit CAST-Funktion zu itab hinzu | [Link](docs/CAST_Funktion_itab.md) |
-| Clean Code - Tables | [Link](https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md#tables) |
+| ABAP Allgemein | Inline Deklaration - Überblick | [Link](docs/Inline_Deklaration.md) |
+| ABAP Allgemein | Inline Deklaration - Füge Spalte mit CAST-Funktion zu itab hinzu | [Link](docs/CAST_Funktion_itab.md) |
+| SAP BW | DTP-Filterroutine | [Link](docs/DTP-Filterroutine.md)
+| Guide | Clean Code - Tables | [Link](https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md#tables) |

@@ -15,3 +15,12 @@ SELECT seatsmax price CAST( ' ' AS CHAR ) AS sum_profit
     <itab>-sum_profit = <itab>-seatsmax * <itab>-price
   ENDLOOP.
   ```
+
+```ABAP
+DATA object TYPE REF TO /clean/some_number_range.
+object = NEW #( '/CLEAN/CXTGEN' )
+...
+DATA(object) = NEW /clean/some_number_range( '/CLEAN/CXTGEN' ).
+...
+DATA(object) = CAST /clean/number_range( NEW /clean/some_number_range( '/CLEAN/CXTGEN' ) ).
+```

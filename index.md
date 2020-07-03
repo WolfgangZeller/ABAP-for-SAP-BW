@@ -4,5 +4,5 @@
 | ABAP-Thema       | Link        |
 | :----------- | :----------- |
 | Inline Deklaration | [Link](docs/Inline_Deklaration.md) |
-| Add Column to Internal Table with Inline Declaration (CAST) | [Link](docs/Add Column to Internal Talble with Inline Declaration.md) |
+| Add Column to Internal Table with Inline Declaration (CAST) | [Link](docs/Add_Column_to_itab_with_Inline_Declaration_(CAST).md) |
 | Clean Code - Tables | [Link](https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md#tables) |

@@ -18,12 +18,13 @@ AS BEGIN
 END;
 ```
 ```sql
- CREATE FUNCTION scale (val INT)
- RETURNS TABLE (a INT, b INT) LANGUAGE SQLSCRIPT AS
- BEGIN
+ CREATE FUNCTION func_name (im_par INT)
+ RETURNS TABLE (column1 INT, column2 INT) 
+ LANGUAGE SQLSCRIPT 
+ AS BEGIN
     RETURN SELECT a, :val * b AS  b FROM mytab;
  END;
 ```
 
-###Link zum SAP Help Portal
+### Link zum SAP Help Portal
 [SAP Help Portal | SAP HANA SQLScript Reference | 2.0 SPS 03 | CREATE FUNCTION](https://help.sap.com/viewer/de2486ee947e43e684d39702027f8a94/2.0.03/en-US/2fc6d7beebd14c579457092e91519082.html)

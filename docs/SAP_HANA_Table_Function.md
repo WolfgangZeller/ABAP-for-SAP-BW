@@ -6,7 +6,7 @@
 ### Eigenschaften einer Tabellenfunktion
 - einen oder mehrere Input-Parameter
 - Output-Parameter ist genau **eine** Tabelle
-- 
+- Aufruf der Funktion im SELECT Statement als FROM Klausel
 
 ### Basic Syntax einer Tabellenfunktion
 Wie man eine einfache Tabellenfunktionen erstellt, wird im folgenden Beispiel gezeigt

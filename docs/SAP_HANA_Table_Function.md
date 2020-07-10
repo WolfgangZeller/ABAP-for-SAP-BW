@@ -4,10 +4,12 @@
 [Zurück zur Startseite](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)
 
 ### Eigenschaften einer Tabellenfunktion
-- einen oder mehrere Input-Parameter
+- Input-Parameter: einen oder mehrere Primitive SQL-Typen oder Tabellentypen
 - Output-Parameter ist genau eine Tabelle
 - Aufruf der Funktion im *SELECT* Statement als *FROM* Klausel
-- DDL oder DML Statements wie *INSERT*, *UPDATE*, *ALTER*, *MODIFY*, *APPEND* oder *DELETE* sind nicht möglich
+- Read-only
+ - DDL oder DML Statements wie *INSERT*, *UPDATE*, *ALTER*, *MODIFY*, *APPEND* oder *DELETE* sind nicht möglich
+ - nur andere Read-only Funktionen können innerhalb der Funktion aufgerufen werden
 
 ### Basic Syntax einer Tabellenfunktion
 Wie man eine einfache Tabellenfunktionen erstellt, wird im folgenden Beispiel gezeigt

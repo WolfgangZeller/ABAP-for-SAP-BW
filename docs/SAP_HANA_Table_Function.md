@@ -22,7 +22,7 @@ END;
  RETURNS TABLE (column1 INT, column2 INT) 
  LANGUAGE SQLSCRIPT 
  AS BEGIN
-    RETURN SELECT a, :val * b AS  b FROM mytab;
+    RETURN SELECT a, :im_par * b AS b FROM db-table;
  END;
 ```
 

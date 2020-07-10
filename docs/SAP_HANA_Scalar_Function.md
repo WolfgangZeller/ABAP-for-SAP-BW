@@ -10,19 +10,20 @@
 - Read only - es werden keinerlei SQL Statements unterstützt
 
 ### Basic Syntax einer Skalar-Funktion
-Wie man eine einfache Skalar-Funktion erstellt, wird im folgenden Beispiel gezeigt
+Wie man eine Skalar-Funktion erstellt, wird im folgenden Beispiel gezeigt
 ```sql
- CREATE FUNCTION func_name (im_par INT)
- RETURNS TABLE (column1 INT, column2 INT) 
+ CREATE FUNCTION func_name (im_par1 DOUBLE,  im_par2 DOUBLE)
+ RETURNS result_add DOUBLE, result_mul DOUBLE 
  LANGUAGE SQLSCRIPT 
  AS BEGIN
-    RETURN SELECT a, :im_par * b AS b FROM db_table;
+    result_add = :x + :y;
+    result_mul = :y * :y;
  END;
 ```
 
 Wie man eine Skalar-Funktion aufruft, wird im folgenden Beispiel gezeigt
 ```sql
-SELECT * FROM func_name(10);
+SELECT * FROM func_name(10,33, 25,00);
 ```
 
 ### Link zum SAP Help Portal

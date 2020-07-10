@@ -15,7 +15,7 @@ END;
 ```
 
 ### Basic Syntax einer Tabellenfunktion - SQLScript
-```sqlscript
+```abap
 CREATE FUNCTION <function name> (<list of input parameters with type>)
 RETURNS TABLE [table type|(<list of table column definitions>)]
 AS

@@ -26,7 +26,7 @@ Wie man eine Skalar-Funktion aufruft, wird im folgenden Beispiel gezeigt
 SELECT * FROM func_name(10,33, 25,00);
 ```
 
-### Use Case einer Tabellenfunktion
+### Use Case einer Skalar-Funktion
 ![Scalar Function Use Case](img/Scalar Function Use Case.png)
 
 ### Link zum SAP Help Portal

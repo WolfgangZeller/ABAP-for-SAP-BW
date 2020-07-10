@@ -4,19 +4,7 @@
 [Zurück zur Startseite](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)
 
 ### Basic Syntax einer Tabellenfunktion - SQL
-Wie man eine einfache Tabellenfunktionen erstellt wird im folgenden Beispiel gezeigt
-```sql
-CREATE FUNCTION Func_name (
-	im_par VARCHAR(1) )
-RETURNS TABLE ( PNr	 NVARCHAR(3),
-		Name	 NVARCHAR(20),
-		Overtime DEC(5,2))
-LANGUAGE SQLSCRIPT 
-AS BEGIN
- RETURN SELECT PNr, Name,
-	FROM Official;
-END;
-```
+Wie man eine einfache Tabellenfunktionen erstellt, wird im folgenden Beispiel gezeigt
 ```sql
  CREATE FUNCTION func_name (im_par INT)
  RETURNS TABLE (column1 INT, column2 INT) 
@@ -24,6 +12,11 @@ END;
  AS BEGIN
     RETURN SELECT a, :im_par * b AS b FROM db-table;
  END;
+```
+
+Wie man eine Tabellenfunktiion aufruft, wird im folgenden Beispiel gezeigt
+```sql
+SELECT * FROM func_name(10);
 ```
 
 ### Link zum SAP Help Portal

@@ -10,7 +10,7 @@ Wie man eine einfache Tabellenfunktionen erstellt, wird im folgenden Beispiel ge
  RETURNS TABLE (column1 INT, column2 INT) 
  LANGUAGE SQLSCRIPT 
  AS BEGIN
-    RETURN SELECT a, :im_par * b AS b FROM db-table;
+    RETURN SELECT a, :im_par * b AS b FROM db_table;
  END;
 ```
 

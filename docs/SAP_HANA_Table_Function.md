@@ -28,9 +28,6 @@ SELECT * FROM func_name(10);
 ```
 
 ### Use Case einer Tabellenfunktion
-![Table Function Use Case](img/Table Function Use Case.png?raw=true "Title")
-
-### Use Case einer Tabellenfunktion
 ![Table Function Use Case](img/Table Function Use Case.png "Title")
 
 ### Link zum SAP Help Portal

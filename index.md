@@ -8,8 +8,6 @@
 | SAP BW | DTP-Filterroutine | [Link](docs/DTP-Filterroutine.md)
 | Guide | Clean Code - Tables | [Link](https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md#tables) |
 
-
-
 ## SAP HANA Modellierung
 | Kategorie | Thema | Link |
 | :----------- | :----------- | :----------- |

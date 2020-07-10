@@ -14,7 +14,7 @@ Wie man eine einfache Tabellenfunktionen erstellt, wird im folgenden Beispiel ge
  END;
 ```
 
-Wie man eine Tabellenfunktiion aufruft, wird im folgenden Beispiel gezeigt
+Wie man eine Tabellenfunktion aufruft, wird im folgenden Beispiel gezeigt
 ```sql
 SELECT * FROM func_name(10);
 ```

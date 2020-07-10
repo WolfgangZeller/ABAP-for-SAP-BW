@@ -1,4 +1,4 @@
-# SAP HANA - Prozedur
+# SAP HANA - Prozeduren
 ---
 
 [Zurück zur Startseite](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)

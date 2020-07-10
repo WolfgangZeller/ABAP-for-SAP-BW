@@ -29,7 +29,7 @@ Die Anweisung `READS SQL DATA` wird verwendet, wenn die Prozedure ausschließlic
 
 Wie man eine Prozedure aufruft, wird im folgenden Beispiel gezeigt
 ```sql
-CALL procedure_name( im_par1=>'Die ist ein Test-String', im_par2=>lv_var1, ex_par1=>lt_itab2) 
+CALL procedure_name( im_par1=>'Dies ist ein Test-String', im_par2=>lv_var1, ex_par1=>lt_itab2) 
 ```
 
 ### Use Case einer Prozedure

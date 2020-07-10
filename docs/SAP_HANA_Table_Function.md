@@ -27,5 +27,8 @@ Wie man eine Tabellenfunktion aufruft, wird im folgenden Beispiel gezeigt
 SELECT * FROM func_name(10);
 ```
 
+### Use Case einer Tabellenfunktion
+![alt text](docs/img/Table Function Use Case "Table Function Use Case")
+
 ### Link zum SAP Help Portal
 [SAP Help Portal | SAP HANA SQLScript Reference | 2.0 SPS 03 | User-Defined Function](https://help.sap.com/viewer/de2486ee947e43e684d39702027f8a94/2.0.03/en-US/765815cd7d214ed38c190dc2f570fe39.html)

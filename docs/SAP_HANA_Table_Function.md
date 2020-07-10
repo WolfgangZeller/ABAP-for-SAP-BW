@@ -3,7 +3,12 @@
 
 [Zurück zur Startseite](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)
 
-### Basic Syntax einer Tabellenfunktion - SQL
+### Eigenschaften einer Tabellenfunktion
+- einen oder mehrere Input-Parameter
+- Output-Parameter ist genau **eine** Tabelle
+- 
+
+### Basic Syntax einer Tabellenfunktion
 Wie man eine einfache Tabellenfunktionen erstellt, wird im folgenden Beispiel gezeigt
 ```sql
  CREATE FUNCTION func_name (im_par INT)

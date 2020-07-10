@@ -5,8 +5,9 @@
 
 ### Eigenschaften einer Tabellenfunktion
 - einen oder mehrere Input-Parameter
-- Output-Parameter ist genau **eine** Tabelle
-- Aufruf der Funktion im SELECT Statement als FROM Klausel
+- Output-Parameter ist genau eine Tabelle
+- Aufruf der Funktion im *SELECT* Statement als *FROM* Klausel
+- DDL oder DML Statements wie *INSERT*, *UPDATE*, *ALTER*, MODIFY, APPEND oder DELETE sind nicht möglich
 
 ### Basic Syntax einer Tabellenfunktion
 Wie man eine einfache Tabellenfunktionen erstellt, wird im folgenden Beispiel gezeigt

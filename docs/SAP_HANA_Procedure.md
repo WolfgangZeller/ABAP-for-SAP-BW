@@ -36,4 +36,4 @@ CALL procedure_name( im_par1=>'Dies ist ein Test-String', im_par2=>lv_var1, ex_p
 ![Table Function Use Case](img/Procedure Use Case.png)
 
 ### Link zum SAP Help Portal
-[SAP Help Portal | SAP HANA SQLScript Reference | 2.0 SPS 03 | User-Defined Function](https://help.sap.com/viewer/de2486ee947e43e684d39702027f8a94/2.0.03/en-US/765815cd7d214ed38c190dc2f570fe39.html)
+[SAP Help Portal | SAP HANA SQLScript Reference | 2.0 SPS 03 | Procedures](https://help.sap.com/viewer/de2486ee947e43e684d39702027f8a94/2.0.03/en-US/d43d91578c3b42b3bacfd89aacf0d62f.html)

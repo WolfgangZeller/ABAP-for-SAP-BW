@@ -1,6 +1,5 @@
 ## Startseite
 
-
 | Kategorie | Thema | Link |
 | :----------- | :----------- | :----------- |
 | ABAP Allgemein | Inline Deklaration - Überblick | [Link](docs/Inline_Deklaration.md) |
@@ -9,6 +8,7 @@
 | Guide | Clean Code - Tables | [Link](https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md#tables) |
 
 ## SAP HANA Modellierung
+
 | Kategorie | Thema | Link |
 | :----------- | :----------- | :----------- |
 | SQL / SQLScript | Tabellenfunktionen | [Link](docs/SAP_HANA_Table_Function.md) |

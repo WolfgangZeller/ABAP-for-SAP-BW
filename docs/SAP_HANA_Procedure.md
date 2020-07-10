@@ -1,4 +1,4 @@
-# SAP HANA - Prozedure
+# SAP HANA - Prozedur
 ---
 
 [Zurück zur Startseite](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)
@@ -25,11 +25,11 @@ Wie man eine Prozedur erstellt, wird im folgenden Beispiel gezeigt
   ex_par1 = SELECT PNr, Name FROM :lt_itab;
  END; 
  ```
- Die Anweisung `READS SQL DATA` wird verwendet, wenn die Prozedure ausschließlich DQI Statements wie *SELECT* verwendet. Werden DDL Statements wie *APPEND*, *UPDATE etc verwendet, muss die READS SQL DATA Answeisung weggelassen werden.
+Die Anweisung `READS SQL DATA` wird verwendet, wenn die Prozedure ausschließlich DQI Statements wie *SELECT* verwendet. Werden DDL Statements wie *APPEND*, *UPDATE etc verwendet, muss die READS SQL DATA Answeisung weggelassen werden.
 
 Wie man eine Prozedure aufruft, wird im folgenden Beispiel gezeigt
 ```sql
-SELECT * FROM func_name(10);
+CALL procedure_name( im_par1=>'Die ist ein Test-String', im_par2=>lv_var1, ex_par1=>lt_itab2) 
 ```
 
 ### Use Case einer Prozedure

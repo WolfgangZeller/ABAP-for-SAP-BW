@@ -4,6 +4,7 @@
 | :----------- | :----------- | :----------- |
 | ABAP Allgemein | Inline Deklaration - Überblick | [Link](docs/Inline_Deklaration.md) |
 | ABAP Allgemein | Inline Deklaration - Füge Spalte mit CAST-Funktion zu itab hinzu | [Link](docs/CAST_Funktion_itab.md) |
+| ABAP Allgemein | Führende Nullen hinzufügen (UNPACK, OVERLAY) | [Link](docs/Zero-Padding.md) |
 | SAP BW | DTP-Filterroutine | [Link](docs/DTP-Filterroutine.md)
 | Guide | Clean Code - Tables | [Link](https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md#tables) |
 | Guide | Die Codezentrale - ABAP Snippets | [Link](https://codezentrale.de/category/sap/sap-abap/) |

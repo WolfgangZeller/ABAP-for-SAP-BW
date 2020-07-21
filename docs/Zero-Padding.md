@@ -5,10 +5,13 @@
 
 ### Variante 1 (UNPACK)
 ```abap
-"-- Source wird vom System immer in Typ p (Länge 16 ohne Nachkommastellen; gepackte Zahl) konvertiert und zeichenartig ausgegeben (Target)
 "-- UNPACK nur geeignet bei numerischen Werten
+
 UNPACK lv_source TO lv_target
 ```
+[ABAP-Schlüsselwortdokumentation -> UNPACK](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/de-DE/abapunpack.htm)
+
+
 
 GET 'Anzahl Sitze' und 'Preis' aus sflight in itab. Zusätzlich füge ein benutzerdefiniertes Feld 'sum_profit' zur itab hinzu
 SELECT seatsmax price CAST( ' ' AS CHAR ) AS sum_profit

@@ -7,7 +7,10 @@
 ```abap
 "-- UNPACK nur geeignet bei numerischen Werten
 
-UNPACK lv_source TO lv_target
+DATA lv_source TYPE char3 VALUE '123'. " 3-stelliger Wert
+DATA lv_target TYPE char5. " 5-stelliger Wert
+ 
+UNPACK lv_source TO lv_target.
 ```
 [ABAP-Schlüsselwortdokumentation -> UNPACK](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/de-DE/abapunpack.htm)
 

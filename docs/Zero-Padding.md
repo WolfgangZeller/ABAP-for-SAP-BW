@@ -16,7 +16,7 @@ UNPACK lv_source TO lv_target.
 ```
 [ABAP-Schlüsselwortdokumentation -> UNPACK](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/de-DE/abapunpack.htm)
 
-### Variante 2 (OVERLAY)
+### Variante 2 (SHIFT/OVERLAY)
 ```abap
 "-- OVERLAY auch bei alpha-numerischen Werten geeignet
 

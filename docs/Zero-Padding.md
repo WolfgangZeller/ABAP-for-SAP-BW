@@ -19,6 +19,7 @@ UNPACK lv_source TO lv_target.
 ### Variante 2 (SHIFT/OVERLAY)
 ```abap
 "-- OVERLAY auch bei alpha-numerischen Werten geeignet
+"-- Zeiger (Feldsymbol, Datenreferenz) können nicht verwendet werden
 
 DATA lv_var TYPE char5 VALUE '123'. " 5-stellige Variable mit 3-stelligem Wert
 

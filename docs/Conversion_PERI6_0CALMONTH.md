@@ -5,6 +5,7 @@
 
 Das Merkmal 0CALMONTH besitzt standardmäßig die Konvertierungsroutine PERI6. Diese Konvertierungsroutine wird für sechsstellige Geschäftsjahres-Perioden verwendet.
 Die Konvertierungsroutine setzt ein externes Format wie MM.YYYY in das interne Format YYYYMM um.
+![InfoObject 0CALMONTH](img/0calmonth.png)
 
 Da das SAP System ein externes Format wie DD.MM.YYYY in das interne Format YYYYMMDD umwandelt, können unabhängig von der Konvertierungsroutine PERI6 auch folgende Codezeilen für die Extraktion von CALMONTH aus einem Datum verwendet werden:
 ```abap

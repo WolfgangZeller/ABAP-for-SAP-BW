@@ -1,5 +1,8 @@
 # ABAP - CONCATENATE
 ---
+
+[Zurück zur Startseite](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)
+
 ### Mit CONCATENATE-Befehl
 ```abap
 lv1 = 'ABAP'.

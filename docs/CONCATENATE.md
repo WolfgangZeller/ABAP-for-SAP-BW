@@ -1,4 +1,4 @@
-# ABAP - CONCATENATE
+# CONCATENATE und Verknüpfungsoperator &&
 ---
 
 [Zurück zur Startseite](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)

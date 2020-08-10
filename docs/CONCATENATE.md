@@ -24,7 +24,7 @@ WRITE: lv3.
 "-- Output: 'ABAP 2020'
 ```
 
-### Verkettungsoperator && bei `SELECT`-Anweisung
+#### Verkettungsoperator && bei `SELECT`-Anweisung
 ```abap
 SELECT dbtab1~material
   dbtab2~datum

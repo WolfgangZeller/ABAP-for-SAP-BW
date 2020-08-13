@@ -10,6 +10,7 @@
 | SAP BW | Konvertierungsroutine PERI6 - 0CALMONTH | [Link](docs/Conversion_PERI6_0CALMONTH.md) |
 | Guide | Clean Code - Tables | [Link](https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md#tables) |
 | Guide | Die Codezentrale - ABAP Snippets | [Link](https://codezentrale.de/category/sap/sap-abap/) |
+| Guide | SAP Stichwortverzeichnis | [Link](docs/Stichwortverzeichnis.md) |
 
 ## SAP HANA Modellierung
 

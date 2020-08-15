@@ -16,3 +16,10 @@ Neben der Entkoppelung zwischen Quell- und Zielsystem bringt ODP noch einige int
 - PSA und InfoPackages werden teilweise obsolet, weil per DTP direkt von der ODQ in die InfoProvider geladen werden kann
 
 ![ODP Provider und Subscriber](img/BW4HANA - ODP.png)
+
+## 2. SAP-HANA-Quellsysteme
+Das SAP HANA-Quellsystem stellt den zentralen und einheitlichen Zugriff auf Quellen zur Verfügung, die über SAP HANA SDI (*Smart Data Integration*) oder SAP HANA SDA (*Smart Data Access*) bereitgestellt werden.
+
+
+## 4. Flache Dateien
+Die Daten der flachen Datei können von einer Workstation oder von einem Applikationsserver ins SAP BW∕4HANA übertragen werden.

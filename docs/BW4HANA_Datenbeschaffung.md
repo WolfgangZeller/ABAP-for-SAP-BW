@@ -14,3 +14,5 @@ Neben der Entkoppelung zwischen Quell- und Zielsystem bringt ODP noch einige int
 - einmalige Extraktion der Quelldaten bei mehrfacher Verteilung an unterschiedliche Zielsystem ("extract once, deploy many")
 - die ODQ vereinheitlicht den Datenaustausch, die Konfiguration und das Monitoring und bietet die Funktion der separat, konfigurierbaren Aufbewahrungsfristen der Quelldaten (Data Retention)
 - PSA und InfoPackages werden teilweise obsolet, weil per DTP direkt von der ODQ in die InfoProvider geladen werden kann
+
+![ODP Provider und Subscriber](img/BW4HANA - ODP.png)

@@ -25,7 +25,7 @@ Das SAP HANA-Quellsystem stellt den zentralen und einheitlichen Zugriff auf Quel
 Sie können über Open ODS Views und CompositeProvider virtuell auf die Daten zugreifen. Für alle Quellen ist die Datenübertragung im Full-Modus unterstützt und, sofern die Quelle dies unterstützt, generisches Delta.
 Für viele Data-Provisioning-Adapter ist mit dem SAP HANA-Quellsystem Real-Time-Replikation unterstützt.
 
-**SDI (Smart Data Integration)**
+### SDI (Smart Data Integration)
 SDI stellt drei Optionen zur Verfügung, externe Daten aus unterschiedlichen Quellen in das BW zu integrieren:
 - Daten-Virtualisierung
 - Datenreplikation im klassischen Batch-Modus
@@ -35,7 +35,7 @@ Bei der Daten-Virtualisierung werden die Daten nicht physisch auf die HANA-Daten
 
 ![SDI](img/BW4HANA - SDI.png)
 
-**SDA (Smart Data Access)**
+### SDA (Smart Data Access)
 Im Gegensatz zu SDI lassen sich Quelldaten mit SDA nur über einen virtuellen Zeiger (Daten-Virtualisierung) für BW-Szenarien nutzbar machen.
 
 ## 3. Big-Data-Quellsysteme

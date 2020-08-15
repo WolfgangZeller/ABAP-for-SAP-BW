@@ -21,3 +21,8 @@
 | SQL / SQLScript | Tabellenfunktionen | [Link](docs/SAP_HANA_Table_Function.md) |
 | SQL / SQLScript | Skalar-Funktionen | [Link](docs/SAP_HANA_Scalar_Function.md) |
 | SQL / SQLScript | Prozeduren | [Link](docs/SAP_HANA_Procedure.md) |
+
+## SAP BW/4HANA Modellierung
+| Thema | Link |
+| :----------- | :----------- |
+| Datenbeschaffung | [Link](docs/BW4HANA_Datenbeschaffung.md) |

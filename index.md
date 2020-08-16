@@ -27,3 +27,4 @@
 | Thema | Link |
 | :----------- | :----------- |
 | Datenbeschaffung | [Link](docs/BW4HANA_Datenbeschaffung.md) |
+| Migration | [Link](docs/BW4HANA_Migration.md) |

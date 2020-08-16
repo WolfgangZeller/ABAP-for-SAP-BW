@@ -9,7 +9,7 @@ Es stehen 4 Methoden zur Verfügung, um ein SAP BW/4HANA einzuführen bzw. zu mi
 3. Shell Conversion
 4. Greenfield-Ansatz (komplette Neueinführung des Systems)
 
-SAP bietet zu allen 4 Methoden umfassende Informationen in ihrer [Simplification List](https://help.sap.com/doc/590752e646cc4b15a9092f32353b209a/1.0/en-US/SAP_BW4HANA_10_Simplification_List.pdf) und in ihrem [Conversion Guide](https://help.sap.com/doc/c3f4454877614bc7b9e85ae1f9d1d2c7/1.0/en-US/SAP_BW4HANA_10_Conversion_Guide.pdf).
+SAP bietet zu allen 4 Methoden umfassende Informationen in der [Simplification List](https://help.sap.com/doc/590752e646cc4b15a9092f32353b209a/1.0/en-US/SAP_BW4HANA_10_Simplification_List.pdf) und im [Conversion Guide](https://help.sap.com/doc/c3f4454877614bc7b9e85ae1f9d1d2c7/1.0/en-US/SAP_BW4HANA_10_Conversion_Guide.pdf).
 
 ## 1. In-place Conversion
 - Komplette Systemmigration eines bestehenden SAP BW-Systems (SID wird beibehalten)

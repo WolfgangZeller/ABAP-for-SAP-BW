@@ -17,6 +17,7 @@ SAP bietet zu allen 4 Methoden umfassende Informationen in ihrer [Simplification
 - nach der Schritt für Schritt Konvertierung erfolgt die Migration auf SAP BW/4HANA
 - kein Parallelbetrieb
 - Voraussetzung: SAP BW 7.5 SP5 powered by SAP HANA
+
 ![In-place Conversion Systemlandschaft](img/BW4HANA - In-place Conversion System Landschaft.png)
 
 ## 2. Remote Conversion
@@ -25,6 +26,7 @@ SAP bietet zu allen 4 Methoden umfassende Informationen in ihrer [Simplification
 - anschließend erfolgt die Datenmigration dieser Datenflüße
 - Parallelbetrieb bei jedoch geringem Risko eines Datenverlusts
 - Voraussetzung: minimum SAP BW 7.3 on any Database
+
 ![Remote Conversion Systemlandschaft](img/BW4HANA - Remote Conversion System Landschaft.png)
 
 ## 3. Shell Conversion

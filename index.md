@@ -13,7 +13,7 @@
 | Guide | Clean Code - Tables | [Link](https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md#tables) |
 | Guide | Die Codezentrale - ABAP Snippets | [Link](https://codezentrale.de/category/sap/sap-abap/) |
 | Guide | SAP Stichwortverzeichnis | [Link](docs/Stichwortverzeichnis.md) |
-| Guide | S/4HANA Embedded Analytics | [Link](docs/S4HANA_Embedded_Analytics.md) |
+| Guide | Official SAP Guide Finder | [Link](https://help.sap.com/viewer/nwguidefinder) |
 
 ## SAP HANA Modellierung
 
@@ -29,5 +29,4 @@
 | :----------- | :----------- |
 | Datenbeschaffung | [Link](docs/BW4HANA_Datenbeschaffung.md) |
 | Migration | [Link](docs/BW4HANA_Migration.md) |
-
-docs/S4HANA_Embedded_Analytics.md
+| S/4HANA Embedded Analytics | [Link](docs/S4HANA_Embedded_Analytics.md) |

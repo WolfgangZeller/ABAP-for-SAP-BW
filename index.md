@@ -9,6 +9,7 @@
 | ABAP Allgemein | Interne Tabellen vergleichen | [Link](docs/Compare_itabs.md) |
 | ABAP Allgemein | `MOVE-CORRESPONDING` vs. `CORRESPONDING FIELDS OF TABLE` | [Link](docs/CORRESPONDING.md) |
 | SAP BW | DTP-Filterroutine | [Link](docs/DTP-Filterroutine.md) |
+| SAP BW | Expertenroutine | [Link](docs/Expertenroutine.md) |
 | SAP BW | Konvertierungsroutine PERI6 - 0CALMONTH | [Link](docs/Conversion_PERI6_0CALMONTH.md) |
 | Guide | Clean Code - Tables | [Link](https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md#tables) |
 | Guide | Die Codezentrale - ABAP Snippets | [Link](https://codezentrale.de/category/sap/sap-abap/) |

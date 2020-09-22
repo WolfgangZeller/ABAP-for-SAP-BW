@@ -15,6 +15,7 @@
 | Guide | Die Codezentrale - ABAP Snippets | [Link](https://codezentrale.de/category/sap/sap-abap/) |
 | Guide | SAP Stichwortverzeichnis | [Link](docs/Stichwortverzeichnis.md) |
 | Guide | Official SAP Guide Finder | [Link](https://help.sap.com/viewer/nwguidefinder) |
+| Guide | Nützliche_SAP-Programme | [Link](docs/Nützliche_SAP-Programme.md) |
 
 ## SAP HANA Modellierung
 

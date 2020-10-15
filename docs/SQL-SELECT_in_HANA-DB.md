@@ -3,7 +3,7 @@
 
 [Zurück zur Startseite](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)
 
-## `LIKE` vs. `=`
+## LIKE vs. =
 Bei dem `LIKE`-Operator kann ein Platzhalter (Wildcard) bei der Suche verwendet werden.
 ```sql
 SELECT "name" FROM "HANA-Schema"."table" where "name" LIKE 'Berkshire%' LIMIT 1000

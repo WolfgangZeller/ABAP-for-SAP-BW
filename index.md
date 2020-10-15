@@ -21,7 +21,7 @@
 
 | Kategorie | Thema | Link |
 | :----------- | :----------- | :----------- |
-| SQL / SQLScript | SQL-Select in der HANA Datenbank | [Link](docs/SQL-Select_in_HANA-DB.md) |
+| SQL / SQLScript | SQL-Select in der HANA Datenbank | [Link](docs/SQL-SELECT_in_HANA-DB.md) |
 | SQL / SQLScript | Tabellenfunktionen | [Link](docs/SAP_HANA_Table_Function.md) |
 | SQL / SQLScript | Skalar-Funktionen | [Link](docs/SAP_HANA_Scalar_Function.md) |
 | SQL / SQLScript | Prozeduren | [Link](docs/SAP_HANA_Procedure.md) |

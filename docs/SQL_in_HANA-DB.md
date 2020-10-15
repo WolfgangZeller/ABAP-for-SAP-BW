@@ -1,4 +1,4 @@
-# SQL in der HANA Datenbank
+# SQL-`SELECT` in der HANA Datenbank
 ---
 
 [Zurück zur Startseite](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)

@@ -14,5 +14,4 @@ Bei der Verwendung des Operators `=` muss der exakte Feldwert angegeben werden, 
 SELECT "name" FROM "HANA-Schema"."table" where "name" = 'Berkshire Hathaway' LIMIT 1000
 ```
 
-Der Vergleichs-Operator `=` vergleicht bei *Nummern* und *Strings* immer den kompletten Feldwert.
-Der Operator `LIKE` vergleicht in einem *String* hingegen Buchstabe für Buchstabe.
+Der Vergleichs-Operator `=` vergleicht bei *Nummern* und *Strings* immer den kompletten Feldwert. Der Operator `LIKE` vergleicht in einem *String* hingegen Buchstabe für Buchstabe.

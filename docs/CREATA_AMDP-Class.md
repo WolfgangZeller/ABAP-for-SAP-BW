@@ -34,6 +34,7 @@ CLASS z_cl_amdp_demo1 DEFINITION
         VALUE(im_mandt) TYPE sbook-mandt
       EXPORTING
         VALUE(ex_itab)  TYPE exporting_itab.
+        
 ENDCLASS.
 ```
 
@@ -48,7 +49,6 @@ CLASS z_cl_amdp_demo1 IMPLEMENTATION.
     FROM sbook AS sb
     inner join scustom AS sc ON sb.customid = sc.id
     where sc.mandt = :im_mandt;
-
   ENDMETHOD.
 
 ENDCLASS.

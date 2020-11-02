@@ -33,5 +33,4 @@
 | Datenbeschaffung | [Link](docs/BW4HANA_Datenbeschaffung.md) |
 | Migration | [Link](docs/BW4HANA_Migration.md) |
 | S/4HANA Embedded Analytics | [Link](docs/S4HANA_Embedded_Analytics.md) |
-| AMDP-Klasse anlegen | [Link](docs/CREATE_AMDP-Class.md) |
-| AMDP-Klasse anlegen 2 | [Link](docs/CREATE_AMDP-Class2.md) |
+| AMDP-Klasse anlegen | [Link](docs/CREATE_AMDP_Class.md) |

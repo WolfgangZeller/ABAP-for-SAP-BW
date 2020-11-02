@@ -7,7 +7,7 @@
 Rechtsklick auf entsprechendes *ABAP Packages->New->ABAP Class*
 
 ## Schritt 2 - Definition der Klasse
-![AMDP-Klasse in ADT anlegen](img/Create AMDP-Class.png)
+![AMDP-Klasse in ADT anlegen](img/Create AMDP Class.png)
 
 ## Hinweise
 - wird die AMDP-Methode später in einem ABAP Programm aufgerufen, muss in der **Definition** (Schritt 2) die AMDP-Methode als statische Methode mit `CLASS-METHOD` angegeben werden. Für die Verwendung als Instanz-Methode reicht die Anweisung `METHODS`.

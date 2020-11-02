@@ -39,4 +39,4 @@
 
 | Tool | Thema | Link |
 | :----------- | :----------- | :----------- |
-| Eclipse (ADT) | Ergebnis einer OO-Methode direkt in Eclipse Konsole anzeigen | [Link](docs/OO_console.md) |
+| Eclipse (ADT) | Ergebnis einer OO-Methode direkt in der ADT-Konsole anzeigen | [Link](docs/OO_console.md) |

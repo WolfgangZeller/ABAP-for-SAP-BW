@@ -7,9 +7,8 @@
 ![AMDP-Klasse in ADT anlegen](img/Create AMDP Class.png)
 
 ## AMDP-Klasse in ABAP Programm aufrufen
-![AMDP-Klasse in ABAP Programm aufrufen](img/Call AMDP Class in ABAP program.png)
+![AMDP-Klasse in ABAP Programm aufrufen](img/Call AMDP Class in ABAP report.png)
 
 
 *Nächste Schritte:*
-LINK(Aufruf einer AMDP-Klasse aus ABAP Programm)
 LINK(Anzeigen des Ergebnisses einer OO-Klasse im ADT)

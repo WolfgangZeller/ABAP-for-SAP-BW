@@ -1,4 +1,4 @@
-# Anlegen einer AMDP-Klasse und Aufrufen in einem ABAP Programm
+# AMDP
 ---
 
 [Zurück zur Startseite](https://wolfgangzeller.github.io/ABAP-for-SAP-BW/)

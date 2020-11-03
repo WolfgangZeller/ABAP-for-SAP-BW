@@ -25,7 +25,7 @@ Wie man eine Prozedur erstellt, wird im folgenden Beispiel gezeigt
   ex_par1 = SELECT PNr, Name FROM :lt_itab;
  END; 
  ```
-Die Anweisung `READS SQL DATA` wird verwendet, wenn die Prozedure ausschließlich DQI Statements wie *SELECT* verwendet. Werden DDL Statements wie *APPEND*, *UPDATE etc verwendet, muss die READS SQL DATA Answeisung weggelassen werden.
+Die Anweisung `READS SQL DATA` wird verwendet, wenn die Prozedure ausschließlich DQI Statements wie `SELECT` verwendet. Werden DDL Statements wie `APPEND`, `UPDATE` etc verwendet, muss die READS SQL DATA Answeisung weggelassen werden.
 
 Wie man eine Prozedure aufruft, wird im folgenden Beispiel gezeigt
 ```sql

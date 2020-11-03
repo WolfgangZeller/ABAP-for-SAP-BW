@@ -13,10 +13,12 @@
 Diese Datenbankartefakte werden als AMDP-Prozedurimplementierung und AMDP-Funktionsimplementierung in einer AMDP-Methode innerhalb einer AMDP-Klasse implementiert.
 Für die Implementierungs-Logik wird **SQLScript** verwendet. Ein Datenbank-Benutzer wird nicht benötigt. Lediglich der ABAP-Applikationsserver muss über Berechtigungen verfügen, um auf der Datenbank Artefakte verwalten zu dürfen.
 
-Vor der ersten Verwendung legt die ABAP-Laufzeitumgebung die AMDP-Implementierungsartefakte auf der Datenbank an.
+Vor der ersten Verwendung legt die ABAP-Laufzeitumgebung die AMDP-Implementierungsartefakte auf der Datenbank an. AMDP-Prozeduren können keine RETURNING-Parameter besitzen - AMDP-Funktionen schon *(Anm.: RETURNING-Parameter wird nicht wirklich benötigt, da man Werte auch mit dem EXPORTING-Parameter zurückgeben kann)*.
 
 Im Gegensatz zu einer normalen OO-Klasse müssen bei einer AMDP-Klasse zwei Code-Bausteine eingefügt werden:
 Das Interface `IF_AMDP_MARKER_HDB` für die HANA-Datenbank muss angegeben werden. Und bei der Methoden-Implementierung muss `BY DATABASE PROCEDURE(|FUNCTION) FOR HDB LANGUAGE SQLSCRIPT (|READ-ONLY)` angegeben werden.
+
+
 
 ## Praxis
 ### AMDP-Klasse im ADT anlegen

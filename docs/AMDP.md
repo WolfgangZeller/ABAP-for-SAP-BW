@@ -32,4 +32,7 @@ Automatisch generierte Prozedur auf der Datenbank:
 
 ### Quellen
 [AMDP | READ-ONLY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-de/abapmethods_amdp_options.htm#!ABAP_ADDITION_1@1@)
+
 [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-de/abenamdp.htm)
+
+[AMDP - Vererbung](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-de/abenamdp_inheritance.htm)

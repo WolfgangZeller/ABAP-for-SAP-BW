@@ -22,7 +22,7 @@ Das Interface ´IF_AMDP_MARKER_HDB´ für die HANA-Datenbank muss angegeben werd
 ![AMDP-Klasse in ADT anlegen](img/Create AMDP Class.png)
 
 Automatisch generierte Prozedur auf der Datenbank:
-![AMDP-Klasse in ADT anlegen](img/AMDP Procedure on database.png)
+![AMDP-Klasse in ADT anlegen](img/AMDP on database.png)
 
 ### AMDP-Klasse in ABAP Programm aufrufen
 ![AMDP-Klasse in ABAP Programm aufrufen](img/Call AMDP Class in ABAP report2.png)

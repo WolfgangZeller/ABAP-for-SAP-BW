@@ -9,7 +9,7 @@
 
 **ABAP Managed Database Procedure** (AMDP) ist ein Framework für die Verwaltung und Aufruf von Datenbankprozeduren und -funktionen auf dem ABAP-Applikationsserver.
 Diese Datenbankartefakte werden als AMDP-Prozedurimplementierung und AMDP-Funktionsimplementierung in einer AMDP-Methode innerhalb einer AMDP-Klasse implementiert.
-Für die Implementierungs-Logik wird *SQLScript* verwendet.
+Für die Implementierungs-Logik wird **SQLScript** verwendet.
 
 Vor der ersten Verwendung legt die ABAP-Laufzeitumgebung die AMDP-Implementierungsartefakte auf der Datenbank an.
 

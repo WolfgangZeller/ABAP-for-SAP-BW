@@ -5,7 +5,7 @@
 
 ### Inhaltsverzeichnis
 - [Theorie](#theorie)
-- [Praxis] (#praxis)
+- [Praxis](#praxis)
 	- [AMDP-Klasse in ADT anglegen](#amdp-klasse_in_adt_anlegen)
 
 ## Theorie

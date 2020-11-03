@@ -14,7 +14,7 @@ Für die Implementierungs-Logik wird *SQLScript* verwendet.
 Vor der ersten Verwendung legt die ABAP-Laufzeitumgebung die AMDP-Implementierungsartefakte auf der Datenbank an.
 
 Im Gegensatz zu einer normalen OO-Klasse müssen bei einer AMDP-Klasse zwei Code-Bausteine eingefügt werden:
-Das Interface ´IF_AMDP_MARKER_HDB´ für die HANA-Datenbank muss angegeben werden. Und bei der Methoden-Implementierung muss ´BY DATABASE PROCEDURE(|FUNCTION) FOR HDB LANGUAGE SQLSCRIPT (|READ-ONLY)´ angegeben werden.
+Das Interface `IF_AMDP_MARKER_HDB` für die HANA-Datenbank muss angegeben werden. Und bei der Methoden-Implementierung muss `BY DATABASE PROCEDURE(|FUNCTION) FOR HDB LANGUAGE SQLSCRIPT (|READ-ONLY)` angegeben werden.
 
 
 ## Praxis

@@ -31,7 +31,7 @@ Automatisch generierte Prozedur auf der Datenbank:
 ![AMDP-Klasse in ABAP Programm aufrufen](img/Call AMDP Class in ABAP report2.png)
 
 ### Quellen
-[AMDP | READ-ONLY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-de/abapmethods_amdp_options.htm#!ABAP_ADDITION_1@1@)
+[AMDP - READ-ONLY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-de/abapmethods_amdp_options.htm#!ABAP_ADDITION_1@1@)
 
 [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-de/abenamdp.htm)
 

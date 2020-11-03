@@ -36,3 +36,5 @@ Automatisch generierte Prozedur auf der Datenbank:
 [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-de/abenamdp.htm)
 
 [AMDP - Vererbung](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-de/abenamdp_inheritance.htm)
+
+[AMDP - Beispiele](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-de/abenamdp_abexas.htm)

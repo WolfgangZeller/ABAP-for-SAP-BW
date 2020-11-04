@@ -18,7 +18,7 @@
 
 **Vererbung:** Objekte können auf mehrere Klassen aufgeteilt werden (Vererbung auf Ober-/Unterklassen, MVC-Prinzip)
 
-**Selbstreferenz me->:**
+**Selbstreferenz me->:** In einer Methode können mit der Selbstreferenz andere Instanzmethoden (sollten *private* sein) derselben Klasse aufgerufen werden. `me->method_name( ).`
 
 | **Sichtbarkeitsbereich:** | Eigenschaft |
 | :--- | :--- |

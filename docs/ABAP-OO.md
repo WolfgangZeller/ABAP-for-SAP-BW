@@ -73,8 +73,8 @@ DATA object_ref TYPE REF TO class.
 
 "-- Objektinstanz mit Parameterübergabe an Constructor erstellen
 object_ref = NEW #( i_par1 = 'AA' i_par2 = '1000' ).
-
-*oder mit Inline-Deklaration
-
+```
+oder mit Inline-Deklaration
+```abap
 DATA(object_ref) = NEW class( i_par1 = 'AA' i_par2 = '1000' ).
 ```

@@ -16,6 +16,8 @@
 
 ![Instances](img/Instances.png)
 
+**Methode:** Es wird zwischen zwei Arten von Methoden unterschieden: Instanzmethoden und statische Methoden.
+
 **Vererbung:** Objekte können auf mehrere Klassen aufgeteilt werden (Vererbung auf Ober-/Unterklassen, MVC-Prinzip). Klasse darf nicht FINAL sein. Methoden und Attribute werden nur vererbt, wenn für sie entsprechende Sichtbarkeitsbereiche definiert wurden.
 
 ![Vererbung](img/Vererbung.png)
@@ -53,6 +55,13 @@ Ein *CLASS_CONSTRUCTOR* ist eine statische Methode und dazu gedacht, die Attribu
 
 ## Praxis
 ### Instanzmehtoden und statische Methoden aufrufen
+```abap
+CALL METHOD class=>static_method( ).
+```
+oder ab neuerem ABAP-Release
+```abap
+class=>static_method( ).
+```
 
 ### Mit Objektreferenzen arbeiten
 Vor ABAP-Release 7.4

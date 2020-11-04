@@ -55,3 +55,22 @@ Ein *CLASS_CONSTRUCTOR* ist eine statische Methode und dazu gedacht, die Attribu
 ### Instanzmehtoden und statische Methoden aufrufen
 
 ### Mit Objektreferenzen arbeiten
+Vor ABAP-Release 7.4
+```abap
+DATA object_ref TYPE REF TO class.
+
+CREATE OBJECT object_ref
+  EXPORTING
+    i_par1 = 'AA'
+    i_par2 = '1000'.
+```
+Ab ABAP-Release 7.4
+```abap
+DATA object_ref TYPE REF TO class.
+
+object_ref = NEW #( i_par1 = 'AA' i_par2 = '1000' ).
+
+*oder mit Inline-Deklaration
+
+DATA(object_ref) = NEW class( i_par1 = 'AA' i_par2 = '1000' ).
+```

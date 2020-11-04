@@ -10,4 +10,4 @@
 
 ![UML Association](img/UML Association.png)
 
-![UML Sequence Syntax](img/UML Sequence Syntax.png)
+![UML Sequence Diagram](img/UML Sequence Diagram.png)

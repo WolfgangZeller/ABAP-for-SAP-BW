@@ -16,7 +16,7 @@
 
 ![Instances](img/Instances.png)
 
-**Methode:** Es wird zwischen zwei Arten von Methoden unterschieden: Instanzmethoden und statische Methoden.
+**Methode:** Es wird zwischen zwei Arten von Methoden unterschieden: Instanzmethoden und statische Methoden. Im DEFINITION-Bereich der Klasse wird eine Instanzmethode mit `METHODS`und die statische Methode mit `CLASS-METHODS` definiert.
 
 **Vererbung:** Objekte können auf mehrere Klassen aufgeteilt werden (Vererbung auf Ober-/Unterklassen, MVC-Prinzip). Klasse darf nicht FINAL sein. Methoden und Attribute werden nur vererbt, wenn für sie entsprechende Sichtbarkeitsbereiche definiert wurden.
 

@@ -16,7 +16,7 @@
 
 ![Instances](img/Instances.png)
 
-**Methode:** Es wird zwischen zwei Arten von Methoden unterschieden: Instanzmethoden und statische Methoden. Im DEFINITION-Bereich der Klasse wird eine Instanzmethode mit `METHODS`und die statische Methode mit `CLASS-METHODS` definiert.
+**Methoden:** Es wird zwischen zwei Arten von Methoden unterschieden: Instanzmethoden und statische Methoden. Im DEFINITION-Bereich der Klasse wird eine Instanzmethode mit `METHODS`und die statische Methode mit `CLASS-METHODS` definiert.
 
 **Vererbung:** Objekte können auf mehrere Klassen aufgeteilt werden (Vererbung auf Ober-/Unterklassen, MVC-Prinzip). Klasse darf nicht FINAL sein. Methoden und Attribute werden nur vererbt, wenn für sie entsprechende Sichtbarkeitsbereiche definiert wurden.
 
@@ -76,7 +76,7 @@ CREATE OBJECT lo_object
     i_par2 = '1000'.
 
 "-- Aufruf der Methode durch Objektinstanz mit Parameterübergabe
-lo_object->class_method( 
+lo_object->instance_method( 
   EXPORTING i_mandt = lv_variable
   IMPORTING e_result = lt_table ).    
 ```
@@ -89,12 +89,12 @@ DATA lo_object TYPE REF TO class.
 lo_object = NEW #( ).
 
 "-- Aufruf der Methode durch Objektinstanz ohne Parameterübergabe
-lo_object->class_method( ).
+lo_object->instance_method( ).
 ```
 oder mit Inline-Deklaration
 ```abap
 DATA(lo_object) = NEW class( i_par1 = 'AA' i_par2 = '1000' ).
 
 "-- Aufruf der Methode durch Objektinstanz ohne Parameterübergabe
-lo_object->class_method( ).
+lo_object->instance_method( ).
 ```

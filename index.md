@@ -41,3 +41,9 @@
 | Tool | Thema | Link |
 | :----------- | :----------- | :----------- |
 | Eclipse (ADT) | Ergebnis einer OO-Methode direkt in der ADT-Konsole anzeigen | [Link](docs/OO_console.md) |
+
+## Methoden
+
+| Thema | Link |
+| :----------- | :----------- |
+| Unified Modeling Language (UML) | [Link](docs/UML.md) |

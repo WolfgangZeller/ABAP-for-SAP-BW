@@ -50,3 +50,8 @@ Ein *CLASS_CONSTRUCTOR* ist eine statische Methode und dazu gedacht, die Attribu
 
 **Interface:** Statt einer Klasse wird ein Interface dann angelegt, wenn mehrere *public*-Komponenten von mehreren Klassen aufgerufen werden sollen. Das Interface beinhaltet keine *privat*- oder *protected*-Komponenten. Interface-Methoden beinhalten keinen Code. Der Aufruf einer Interface-Methode und einer Klassen-Methode unterscheidet sich nicht.
 
+
+## Praxis
+### Instanzmehtoden und statische Methoden aufrufen
+
+### Mit Objektreferenzen arbeiten

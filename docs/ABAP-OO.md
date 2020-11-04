@@ -10,7 +10,7 @@
 
 **Objekt:** Objekte sind Instanzen von Klassen. Jedes Objekt hat eine eindeutige Identität und eigene Attribute.
 
-**Objektreferenzen:** Der Zugriff innerhalb eines ABAP-Programms auf ein Objekt erfolgt ausschließlich über dessen Objektreferenz (= Zeiger auf Objekte)
+**Objektreferenzvariablen:** Der Zugriff innerhalb eines ABAP-Programms auf ein Objekt erfolgt ausschließlich über dessen Objektreferenz (= Zeiger auf Objekte)
 
 **Instanz:** Ein Exemplar eines Objekts
 
@@ -97,4 +97,12 @@ DATA(lo_object) = NEW class( i_par1 = 'AA' i_par2 = '1000' ).
 
 "-- Aufruf der Methode durch Objektinstanz ohne Parameterübergabe
 lo_object->instance_method( ).
+```
+
+### Laufzeitfehler bei Objektreferenzvariablen vermeiden
+Um Laufzeitfehler zu verhindern, wenn Objektreferenzvariablen nicht mit einer Instanz gefüllt sind, folgende Abfrage vor der Verarbeitung implementieren:
+```abap
+IF lo_object IS BOUND.
+  ...
+ENDIF.
 ```

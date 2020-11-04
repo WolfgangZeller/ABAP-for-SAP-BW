@@ -26,7 +26,7 @@
 | private | Komponenten sind nur innerhalb der eigenen Klasse aufrufbar und sichtbar |
 | protected | Komponenten sind nur innerhalb der eigenen Klasse und in der Hierarchie nach unten aufrufbar und sichtbar |
 
-**Instanz vs. statisch**: Instanzmethoden erst verwendbar, nachdem ein Objekt instanziiert wurde (`CREATE OBJECT`). Statische Methoden sind jederzeit verwendbar, existiert nur einmal für die Klasse und wird verwendet, wenn alle Objekte auf den gleichen Wert zugreifen müssen.
+**Instanz vs. statisch**: Instanzmethoden erst verwendbar, nachdem ein Objekt instanziiert wurde. Statische Methoden sind jederzeit verwendbar, existiert nur einmal für die Klasse und wird verwendet, wenn alle Objekte auf den gleichen Wert zugreifen müssen.
 
 **Variable:** Sollten immer *private* oder *public-read-only* (schreibgeschützt) sein
 
@@ -42,3 +42,7 @@
 *¹ bei Werteübergabe muss der Zusatz `VALUE()` bei der Definition angegeben werden*
 
 *² eine Methode kann nur einen RETURNING-Parameter besitzen - zusätzliche Parameter sind nicht möglich*
+
+**CONSTRUCTOR und CLASS_CONSTRUCTOR:** Ein *CONSTRUCTOR* ist eine Instanzmethode, die bei der Erzeugung eines Objekts der Klasse genau einmal (für dieses Objekt) automatisch ausgeführt wird. Bei mehreren Objekten einer Klasse werden deshalb auch mehrmalig der CONSTRUCTOR aufgerufen (jeweils einmal für jedes Objekt). Füllt erstmalig die Attribute des Objekts/der Instanz. Ein CONSTRUCTOR kann nur Import-Parameter besitzen und Ausnahmen erzeugen.
+Ein *CLASS_CONSTRUCTOR* ist eine statische Methode und dazu gedacht, die Attribute der Klasse in einen Anfangszustand (Initialisierung) zu setzen. Er hat keine Parameter und kann keine Ausnahmen erzeugen. Konstruktoren-Methoden müssen nicht wie die anderen Methoden aufgerufen werden, sondern sie werden automatisch aufgerufen.
+

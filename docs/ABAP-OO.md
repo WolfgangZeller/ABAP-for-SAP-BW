@@ -20,12 +20,11 @@
 
 **Selbstreferenz me->:**
 
-**Sichtbarkeitsbereich:**
-
+| **Sichtbarkeitsbereich:** | Eigenschaft |
+| :--- | :--- |
 | public | alle Komponenten sind aus allen Programmen und Klassen aufrufbar und sichtbar |
 | private | Komponenten sind nur innerhalb der eigenen Klasse aufrufbar und sichtbar |
 | protected | Komponenten sind nur innerhalb der eigenen Klasse und in der Hierarchie nach unten aufrufbar und sichtbar |
 
 
-| **Sichtbarkeitsbereich:** | Eigenschaft |
-| :--- | :--- |
+

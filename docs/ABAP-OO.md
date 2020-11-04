@@ -54,7 +54,7 @@ Ein *CLASS_CONSTRUCTOR* ist eine statische Methode und dazu gedacht, die Attribu
 
 
 ## Praxis
-### Instanzmehtoden und statische Methoden aufrufen
+### Statische Methoden aufrufen
 ```abap
 CALL METHOD class=>static_method( ).
 ```
@@ -63,7 +63,7 @@ oder ab neuerem ABAP-Release
 class=>static_method( ).
 ```
 
-### Mit Objektreferenzen arbeiten
+### Mit Objektreferenzen arbeiten (Instanzmethoden aufrufen)
 Vor ABAP-Release 7.4
 ```abap
 "-- Objektreferenzvariable zur Klasse erstellen

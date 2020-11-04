@@ -10,7 +10,7 @@
 
 **Objekt:** Objekte sind Instanzen von Klassen. Jedes Objekt hat eine eindeutige Identität und eigene Attribute.
 
-**Objektreferenzen:** Der Zugriff innerhalb eines ABAP-Programms auf ein Objekt erfolgt ausschließlich über Objektreferenzen (= Zeiger auf Objekte)
+**Objektreferenzen:** Der Zugriff innerhalb eines ABAP-Programms auf ein Objekt erfolgt ausschließlich über dessen Objektreferenz (= Zeiger auf Objekte)
 
 **Instanz:** Ein Exemplar eines Objekts
 

@@ -58,23 +58,34 @@ Ein *CLASS_CONSTRUCTOR* ist eine statische Methode und dazu gedacht, die Attribu
 Vor ABAP-Release 7.4
 ```abap
 "-- Objektreferenzvariable zur Klasse erstellen
-DATA object_ref TYPE REF TO class.
+DATA lo_object TYPE REF TO class.
 
 "-- Objektinstanz mit Parameterübergabe an Constructor erstellen
-CREATE OBJECT object_ref
+CREATE OBJECT lo_object
   EXPORTING
     i_par1 = 'AA'
     i_par2 = '1000'.
+
+"-- Aufruf der Methode durch Objektinstanz mit Parameterübergabe
+lo_object->class_method( 
+  EXPORTING i_mandt = lv_variable
+  IMPORTING e_result = lt_table ).    
 ```
 Ab ABAP-Release 7.4
 ```abap
 "-- Objektreferenzvariable zur Klasse erstellen
-DATA object_ref TYPE REF TO class.
+DATA lo_object TYPE REF TO class.
 
-"-- Objektinstanz mit Parameterübergabe an Constructor erstellen
-object_ref = NEW #( i_par1 = 'AA' i_par2 = '1000' ).
+"-- Objektinstanz ohne Parameterübergabe an Constructor erstellen
+lo_object = NEW #( ).
+
+"-- Aufruf der Methode durch Objektinstanz ohne Parameterübergabe
+lo_object->class_method( ).
 ```
 oder mit Inline-Deklaration
 ```abap
-DATA(object_ref) = NEW class( i_par1 = 'AA' i_par2 = '1000' ).
+DATA(lo_object) = NEW class( i_par1 = 'AA' i_par2 = '1000' ).
+
+"-- Aufruf der Methode durch Objektinstanz ohne Parameterübergabe
+lo_object->class_method( ).
 ```

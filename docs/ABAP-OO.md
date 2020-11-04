@@ -16,7 +16,9 @@
 
 ![Instances](img/Instances.png)
 
-**Vererbung:** Objekte können auf mehrere Klassen aufgeteilt werden (Vererbung auf Ober-/Unterklassen, MVC-Prinzip)
+**Vererbung:** Objekte können auf mehrere Klassen aufgeteilt werden (Vererbung auf Ober-/Unterklassen, MVC-Prinzip). Klasse darf nicht FINAL sein. Methoden und Attribute werden nur vererbt, wenn für sie entsprechende Sichtbarkeitsbereiche definiert wurden.
+
+![Vererbung](img/Vererbung.png)
 
 **Selbstreferenz me->:** In einer Methode können mit der Selbstreferenz andere Instanzmethoden (sollten *private* sein) derselben Klasse aufgerufen werden. `me->method_name( ).`
 
@@ -45,4 +47,6 @@
 
 **CONSTRUCTOR und CLASS_CONSTRUCTOR:** Ein *CONSTRUCTOR* ist eine Instanzmethode, die bei der Erzeugung eines Objekts der Klasse genau einmal (für dieses Objekt) automatisch ausgeführt wird. Bei mehreren Objekten einer Klasse werden deshalb auch mehrmalig der CONSTRUCTOR aufgerufen (jeweils einmal für jedes Objekt). Füllt erstmalig die Attribute des Objekts/der Instanz. Ein CONSTRUCTOR kann nur Import-Parameter besitzen und Ausnahmen erzeugen.
 Ein *CLASS_CONSTRUCTOR* ist eine statische Methode und dazu gedacht, die Attribute der Klasse in einen Anfangszustand (Initialisierung) zu setzen. Er hat keine Parameter und kann keine Ausnahmen erzeugen. Konstruktoren-Methoden müssen nicht wie die anderen Methoden aufgerufen werden, sondern sie werden automatisch aufgerufen.
+
+**Interface:** Statt einer Klasse wird ein Interface dann angelegt, wenn mehrere *public*-Komponenten von mehreren Klassen aufgerufen werden sollen. Das Interface beinhaltet keine *privat*- oder *protected*-Komponenten. Interface-Methoden beinhalten keinen Code. Der Aufruf einer Interface-Methode und einer Klassen-Methode unterscheidet sich nicht.
 

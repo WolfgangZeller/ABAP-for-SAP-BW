@@ -38,5 +38,6 @@
 | EXPORT | Ausgabe | Referenz und Wert|
 | CHANGING | Ein-/Ausgabe | Referenz und Wert |
 | RETURNING² | Rückgabe | Referenz und Wert |
+
 *¹ bei Werteübergabe muss der Zusatz `VALUE()` bei der Definition angegeben werden*
 *² eine Methode kann nur einen RETURNING-Parameter besitzen - zusätzliche Parameter sind nicht möglich*

@@ -4,7 +4,7 @@
 
 ## Basis-Syntax
 ```abap
-SELECTION-SCREEN BEGIN OF BLOCK nama_of_block [WITH FRAME [TITLE TEXT-xxx]].
+SELECTION-SCREEN BEGIN OF BLOCK nama_of_block [WITH FRAME [TITLE TEXT-xxx]] [NO_INTERVALS].
 ...
 SELECTION-SCREEN END OF BLOCK name_of_block.
 ```

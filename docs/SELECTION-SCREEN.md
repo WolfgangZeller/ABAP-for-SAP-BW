@@ -20,7 +20,7 @@ Die Funktion *Textelemente* kann in der SAP GUI im Hauptmenü *Springen->Textele
 
 Per Default werden für die Selektionskriterien eines Blocks "von-bis"-Eingabefelder angezeigt. Mit der Erweiterung `NO_INTERVALS` werden für alle Selektionskriterien innerhalb des Blocks ein einziges Eingabefeld angezeigt.
 
-## Beispiele
+## Beispiel
 ![SELECTIONS-SCREEN](img/SELECTIONS-SCREEN.png)
 ```abap
 REPORT z_report_ui_demo1.

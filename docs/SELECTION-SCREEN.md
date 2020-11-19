@@ -12,10 +12,12 @@ Diese Anweisung generiert einen Block auf dem aktuellen Selektionsbild. Der Name
 
 ## Syntax-Erweiterungen
 `WITH FRAME [TITLE TEXT-xxx]`
+
 Die Erweiterung `WITH FRAME` zeichnet einen Rahmen um den Block. Mit der zusätzlichen Erweiterung `TITLE TEXT-xxx` kann ein Titel für den Block vergeben werden. Über die Funktion *Textelemente* kann im Reiter *Textsymbole* eine Text-Nummer `xxx` vergeben werden, die den Block-Titel definiert. Im Reiter *Selektionstexte* die Bezeichnungen der Block-Variablen definiert werden.
 Die Funktion *Textelemente* kann in der SAP GUI im Hauptmenü *Springen->Textelemente* und im ADT über das Kontextmenü *Open Others->Text Elements* aufgerufen werden.
 
 `NO_INTERVALS`
+
 Per Default werden für die Selektionskriterien eines Blocks "von-bis"-Eingabefelder angezeigt. Mit der Erweiterung `NO_INTERVALS` werden für alle Selektionskriterien innerhalb des Blocks ein einziges Eingabefeld angezeigt.
 
 ## Beispiele

@@ -17,11 +17,11 @@ Das ODP-Framework (*Operational Data Provisioning*) stellt einen "Vermittler" zw
 Neben der Entkoppelung zwischen Quell- und Zielsystem bringt ODP noch einige interessante Funktionen mit:
 - einmalige Extraktion der Quelldaten bei mehrfacher Verteilung an unterschiedliche Zielsystem ("extract once, deploy many")
 - die ODQ vereinheitlicht den Datenaustausch, die Konfiguration und das Monitoring und bietet die Funktion der separat, konfigurierbaren Aufbewahrungsfristen der Quelldaten (Data Retention)
-- PSA und InfoPackages werden teilweise obsolet, weil per DTP direkt von der ODQ in die InfoProvider geladen werden kann
+- PSA und InfoPackages werden teilweise obsolet, weil per DTP direkt von der ODQ in die InfoProvider geladen werden kann (ODQ ansehen mit Transaktion ODQMON)
 
 Quelldaten können mithilfe des ODP-Frameworks entweder physisch von der DataSource in einen BW-InfoProvider geladen werden oder Sie können die DataSource, wenn sie Direktzugriff unterstützt, als Quelle in einem Open ODS View verwenden.
 
-Das Monitoring der PSA wird ersetzt durch die ODQ (Transaktion ODQMON)
+[Anatomy of the Operational Delta Queues](https://itelligencegroup.com/uk/local-blog/anatomy-of-the-operational-delta-queues-in-sap-odp-extractors/)
 
 ![ODP Provider und Subscriber](img/BW4HANA - ODP.png)
 

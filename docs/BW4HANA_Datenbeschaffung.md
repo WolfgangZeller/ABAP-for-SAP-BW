@@ -21,6 +21,8 @@ Neben der Entkoppelung zwischen Quell- und Zielsystem bringt ODP noch einige int
 
 Quelldaten können mithilfe des ODP-Frameworks entweder physisch von der DataSource in einen BW-InfoProvider geladen werden oder Sie können die DataSource, wenn sie Direktzugriff unterstützt, als Quelle in einem Open ODS View verwenden.
 
+Das Monitoring der PSA wird ersetzt durch die ODQ (Transaktion ODQMON)
+
 ![ODP Provider und Subscriber](img/BW4HANA - ODP.png)
 
 ## 2. SAP-HANA-Quellsysteme

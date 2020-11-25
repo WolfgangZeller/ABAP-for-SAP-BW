@@ -12,7 +12,7 @@ Im SAP BW/4HANA  2.0 SPS01 stehen folgende Typen von Quellsystemen zur Verfügun
 Weitere Informationen zur Datenbeschaffung im [SAP Application Help](https://help.sap.com/viewer/product/SAP_BW4HANA/2.0.6/en-US).
 
 ## 1. ODP-Quellsysteme
-Das ODP-Framework (*Operational Data Provisioning*) stellt einen "Vermittler" zwischen Nicht-HANA-Quellsystemen und dem BW/4HANA-System dar. Als persistente Datenablage nutzt das ODP-Framework die ODQ (*Operational Data Queue*). Die Quellsysteme werden dabei Provider (Anbieter) und die Zielsysteme als Subscriber (Abonnoment) bezeichnet.
+Das ODP-Framework (*Operational Data Provisioning*) stellt einen "Vermittler" zwischen Nicht-HANA-Quellsystemen und dem BW/4HANA-System dar. Als persistente Datenablage nutzt das ODP-Framework die ODQ (*Operational Data Queue*). Die ODQ befindet sich im Quellsystem und speichert die Daten dort persistent, sodass sie von mehreren BW/4HANA-Zielsystemen "abgeholt" werden können. Die Quellsysteme werden dabei Provider (Anbieter) und die Zielsysteme als Subscriber (Abonnoment) bezeichnet.
 
 Neben der Entkoppelung zwischen Quell- und Zielsystem bringt ODP noch einige interessante Funktionen mit:
 - einmalige Extraktion der Quelldaten bei mehrfacher Verteilung an unterschiedliche Zielsystem ("extract once, deploy many")

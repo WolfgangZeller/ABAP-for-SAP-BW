@@ -32,7 +32,7 @@ Sie können über Open ODS Views und CompositeProvider virtuell auf die Daten zu
 Für viele Data-Provisioning-Adapter ist mit dem SAP HANA-Quellsystem Real-Time-Replikation unterstützt.
 
 ### SDI (Smart Data Integration)
-SDI stellt drei Optionen zur Verfügung, externe Daten aus unterschiedlichen Quellen in das BW zu integrieren:
+SDI stellt drei Optionen zur Verfügung, um externe Daten aus unterschiedlichen Quellen in das BW zu integrieren:
 - Daten-Virtualisierung
 - Datenreplikation im klassischen Batch-Modus
 - Datenreplikation in Echtzeit

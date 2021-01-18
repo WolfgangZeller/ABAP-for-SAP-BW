@@ -34,3 +34,13 @@ SELECT dbtab1~material
   dbtab1~plz && ' ' && dbtab2~ort AS adresse
 INTO ...
 ```
+
+#### Verkettungsfunktion |{ }{ }|
+```abap
+DATA(lv_string1) = 'max.mustermann'.
+DATA(lv_string2) = '@test.de'.
+
+DATA(RESULT) = |{ lv_string1 }{ lv_string2 }|.
+
+WRITE: RESULT.
+```

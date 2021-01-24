@@ -2,7 +2,6 @@
 
 | Kategorie | Thema | Link |
 | :----------- | :----------- | :----------- |
-| ABAP Allgemein | Interne Tabellen vergleichen | [Link](docs/Compare_itabs.md) |
 | ABAP Allgemein | `MOVE-CORRESPONDING` vs. `CORRESPONDING FIELDS OF TABLE` | [Link](docs/CORRESPONDING.md) |
 | ABAP Allgemein | `SELECTION-SCREEN` | [Link](docs/SELECTION-SCREEN.md) |
 | ABAP OO | Überblick über ABAP OO | [Link](docs/ABAP-OO.md) |

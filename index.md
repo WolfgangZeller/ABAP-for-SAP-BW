@@ -2,10 +2,6 @@
 
 | Kategorie | Thema | Link |
 | :----------- | :----------- | :----------- |
-| ABAP Allgemein | Inline Deklaration - Überblick | [Link](docs/Inline_Deklaration.md) |
-| ABAP Allgemein | Inline Deklaration - Füge Spalte mit `CAST`-Funktion zu itab hinzu | [Link](docs/CAST_Funktion_itab.md) |
-| ABAP Allgemein | Führende Nullen hinzufügen (`UNPACK`, `OVERLAY`) | [Link](docs/Zero-Padding.md) |
-| ABAP Allgemein | `CONCATENATE` und Verknüpfungsoperator `&&` | [Link](docs/CONCATENATE.md) |
 | ABAP Allgemein | Interne Tabellen vergleichen | [Link](docs/Compare_itabs.md) |
 | ABAP Allgemein | `MOVE-CORRESPONDING` vs. `CORRESPONDING FIELDS OF TABLE` | [Link](docs/CORRESPONDING.md) |
 | ABAP Allgemein | `SELECTION-SCREEN` | [Link](docs/SELECTION-SCREEN.md) |

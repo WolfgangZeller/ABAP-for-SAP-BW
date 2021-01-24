@@ -2,7 +2,6 @@
 
 | Kategorie | Thema | Link |
 | :----------- | :----------- | :----------- |
-| ABAP Allgemein | `SELECTION-SCREEN` | [Link](docs/SELECTION-SCREEN.md) |
 | ABAP OO | Überblick über ABAP OO | [Link](docs/ABAP-OO.md) |
 | SAP BW | DTP-Filterroutine | [Link](docs/DTP-Filterroutine.md) |
 | SAP BW | Expertenroutine | [Link](docs/Expertenroutine.md) |

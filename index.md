@@ -2,7 +2,6 @@
 
 | Kategorie | Thema | Link |
 | :----------- | :----------- | :----------- |
-| ABAP Allgemein | `MOVE-CORRESPONDING` vs. `CORRESPONDING FIELDS OF TABLE` | [Link](docs/CORRESPONDING.md) |
 | ABAP Allgemein | `SELECTION-SCREEN` | [Link](docs/SELECTION-SCREEN.md) |
 | ABAP OO | Überblick über ABAP OO | [Link](docs/ABAP-OO.md) |
 | SAP BW | DTP-Filterroutine | [Link](docs/DTP-Filterroutine.md) |
